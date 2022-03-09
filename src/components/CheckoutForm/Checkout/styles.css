@@ -1,0 +1,39 @@
+.toolbar {
+    margin-top: 5rem;
+}
+
+.layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paper {
+    width: 40%;
+    margin-top: 1rem  ;
+    padding: 1.4rem
+}
+
+.title {
+    text-align: center;
+}
+
+
+.btns {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+@media(max-width:1024px) {
+    .paper {
+        width: 55%;
+    }
+}
+
+@media (max-width:768px) {
+    .paper{
+        width: 70%;
+    }
+}

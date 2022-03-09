@@ -1,0 +1,10 @@
+.toolbar {
+    margin-top: 80px;
+}
+
+.cart-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+

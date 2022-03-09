@@ -1,0 +1,9 @@
+.toolbar {
+    margin-top: 4rem;
+}
+
+.content {
+    flex-grow: 1;
+    background-color: rgb(253, 251, 251);
+    padding:1rem
+} 
