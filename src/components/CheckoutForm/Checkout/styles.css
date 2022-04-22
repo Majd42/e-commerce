@@ -34,6 +34,7 @@
 
 @media (max-width:768px) {
     .paper{
-        width: 80%;
+        margin-top: 1rem;
+        width: 100%;
     }
 }
