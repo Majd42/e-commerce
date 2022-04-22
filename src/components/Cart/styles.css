@@ -9,7 +9,7 @@
     margin-top: 5%;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     .cart-details {
         flex-direction: column;
     }
