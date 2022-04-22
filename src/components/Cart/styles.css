@@ -9,8 +9,34 @@
     margin-top: 5%;
 }
 
-@media screen and (max-width:500px) {
+
+@media screen and (max-width:470px) {
     .cart-details {
-        flex-direction: column;
+        display: inline-block;
+        margin-top: 2rem;
+        
     }
+
+    
+
+    
+
+   
+}
+@media screen and (max-width:295px) {
+    .cart-details {
+        display: block;
+        margin-top: 2rem;
+        
+    }
+
+    .interact {
+        margin-top: 1rem;
+        
+        
+    }
+
+    
+
+   
 }

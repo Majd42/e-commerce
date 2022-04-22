@@ -27,11 +27,11 @@ const Cart = ({cart ,handleUpdateCart, handleRemoveFromCart, handleEmptyCart}) =
           <Typography variant='h6'>
             Total Price : {cart.subtotal.formatted_with_symbol  }
           </Typography>
-          <div>
+          <div className='interact'>
             <Button component={Link} to='/checkout' variant='contained' color='secondary'>
               Checkout
             </Button>
-            <Button  variant='outlined' color='error' sx={{ml:1}} onClick={() =>handleEmptyCart()}> 
+            <Button  variant='outlined' color='error'  onClick={() =>handleEmptyCart()}> 
               Empty Cart
             </Button>
           </div>
@@ -45,7 +45,7 @@ if (!cart.line_items) return ('Loading...')
   return (
     <Container spacing={3}>
       <div className='toolbar'/>
-      <Typography variant='h3' sx={{mb:3}} className='title' >Your Shipping Cart</Typography>
+      <Typography variant='h4' sx={{mb:2, mt:2}} className='title' >Your Shipping Cart</Typography>
       {!cart.line_items.length ? <EmptyCart/> : <FilledCart/>}
 
       
