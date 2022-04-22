@@ -4,7 +4,13 @@
 
 .cart-details {
     display: flex;
+    
     justify-content: space-between;
     margin-top: 5%;
 }
 
+@media screen and (max-width:400px) {
+    .cart-details {
+        flex-direction: column;
+    }
+}
