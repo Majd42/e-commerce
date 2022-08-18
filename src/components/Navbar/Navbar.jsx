@@ -10,6 +10,7 @@ const Navbar = ({cartTotalItems}) => {
     const location = useLocation();
   return (
     <>
+    <p>Hello</p>
     <AppBar position='fixed' className='appbar' color='inherit'  >
         <Toolbar>
             <Typography component={Link} to='/' variant='h6' className='title' color='inherit'>
